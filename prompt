@@ -1,0 +1,81 @@
+Osmo
+Assignment
+Frontend Developer Take-Home Assessment
+Overview
+Build a Fragrance Formula Manager using the provided fragrance data for perfumers to browse and understand their formulas.
+
+Time Estimate: 2-3 hours
+Stack: React, TypeScript
+
+
+
+Requirements
+Must Have
+Formula Table
+
+Display all formulas in a table
+
+Sort by clicking column headers (name, creation date, etc.)
+
+Search formulas by name or notes
+
+Formula Details
+
+Click a row to view the complete formula breakdown
+
+Show all materials with their quantities
+
+Display formula metadata (creator, notes, category, etc.)
+
+Nice to Have (pick 1-2 if time allows)
+Filter by fragrance category (floral, woody, fresh, etc.)
+
+Calculate and display total formula cost
+
+Export formula to CSV/PDF
+
+Formula comparison (select 2+ formulas to compare materials)
+
+
+
+Data Structure
+You'll receive a CSV and each formula will have multiple rows (one per material), so you'll need to group by formula_id.
+
+
+
+What We're Looking For
+Clean React/TypeScript code
+
+Good data transformation
+
+Intuitive UX for browsing complex nested data
+
+Solid state management
+
+
+
+Submission
+Please provide:
+
+GitHub repository link
+
+Live demo URL (or local setup instructions)
+
+Brief README explaining your approach and any assumptions
+
+Include any questions about the fragrance domain or technical trade-offs in your README.
+
+Submission
+Files
+
+Upload File(s)
+or drag and drop here
+
+Notes
+
+
+
+Submit Assignment
+Powered by 
+Privacy PolicySecurityVulnerability Disclosure
+

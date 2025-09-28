@@ -1,0 +1,34 @@
+.table {
+    border-collapse: collapse;
+    background-color: var(--cream);
+}
+
+// Headers
+.header {
+    background-color: var(--green);
+    text-transform: uppercase;
+    border: 2px solid var(--taupe);
+    font-family: monospace;
+
+    &:first-child { // Hides the ID component in the formulas, assuming that the formula names remain unique
+        display: none;
+    }
+}
+
+.header.selected {
+    font-weight: bold;
+}
+.header.sortable {
+    cursor: pointer;
+}
+.header.selected.asc::after {
+    content: '▲';
+}
+.header.selected.desc::after {
+    content: '▼';
+}
+
+// Cell
+.cell {
+    padding: var(--padding--small);
+}

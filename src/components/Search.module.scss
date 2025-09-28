@@ -1,0 +1,21 @@
+.search__container {
+    margin: var(--margin--large) 0px;
+
+    :global(label) {
+        margin-right: var(--margin--small);
+        font-family: monospace;
+    }
+}
+
+.search__input {
+    font-size: 16px;
+    padding: var(--padding--small);
+    border: 2px solid var(--green);
+    border-radius: 15px;
+    width: 250px;
+    background: var(--cream);
+}
+
+.search__select {
+    margin: var(--margin--small) 0;
+}

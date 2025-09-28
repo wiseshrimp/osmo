@@ -1,0 +1,28 @@
+@use '_variables.scss';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--pink);
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+// Header
+h1, h2, h3 {
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+
+// Table
+th, td {
+    text-align: left;
+}
+
+th {
+    font-family: monospace;
+    text-transform: uppercase;
+}

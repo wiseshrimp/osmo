@@ -1,0 +1,23 @@
+.materials {
+    background: var(--taupe);
+    border: 2px solid var(--green);
+}
+
+.container {
+    padding: var(--padding--small);
+    border-top: 2px solid var(--green);
+}
+
+.container__materials {
+    margin-top: var(--margin--large);
+}
+
+.table {
+    position: relative;
+    left: -4px;
+    width: 70%;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: var(--padding--small);
+    background: var(--cream);
+}
