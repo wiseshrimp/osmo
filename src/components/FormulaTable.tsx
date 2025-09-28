@@ -1,5 +1,5 @@
 import clsx from "clsx"
-import { useCallback, useMemo, useState } from "react"
+import { useMemo, useState } from "react"
 import { FORMULA_DISPLAY_KEYS, FORMULA_KEYS } from "../constants/formulas"
 import FormulaRow from "./FormulaRow"
 import { SORT_KEY_SET } from "../constants/sort"
@@ -21,8 +21,8 @@ const FormulaTable = (props: { formulas: Map<string, Formula>, materials: Map<st
     // State: Selected row state either null (no selected formula row and thus ignore) or has the unique formula id
     const [selectedRow, setSelectedRow] = useState<null | string>(null)
 
-
-    const setSortOrder = (key: SortKey) => { // Changes sortBy state - which type of sort (name, creator, date, etc.) and sort order (asc or desc)
+    // setSortOrder Changes sortBy state - which type of sort (name, creator, date, etc.) and sort order (asc or desc)
+    const setSortOrder = (key: SortKey) => {
         setSortBy(prev => prev.key === key
             ? { key, dir: prev.dir === "asc" ? "desc" : "asc" } // Switch directions if already selected otherwise, default to asc
             : { key, dir: "asc" }
